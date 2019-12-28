@@ -1,0 +1,9 @@
+for cucumber menu, use cucumber from eclipse marketplace
+
+Commands to run 2 features simulteniusly -- command line
+mvn clean test -Dcucumber.options="--tags @Search-Cars,@Used-Search-Cars"
+
+Or from eclipse:
+Right click project
+run as Mavan build...
+and in goals -- clean test -Dcucumber.options="--tags @Search-Cars,@Used-Search-Cars"
